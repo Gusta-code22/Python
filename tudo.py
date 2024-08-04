@@ -113,7 +113,7 @@ while True:
         elif operacao == 11:
             n = float(input('Valor inicial: '))
             aumento = float(input('porcentagem do aumento: % '))
-            novo_n = n - (n * aumento / 100)
+            novo_n = n + (n * aumento / 100)
             print(f'com o aumento fica {novo_n:.2f}')
             sleep(3)
 
