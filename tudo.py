@@ -26,6 +26,7 @@ while True:
     print('19/verificar o primeiro e ultimo nome.')
     print('20/calcular fatorial.')
     print('21/gerar um numero aleatorio')
+    print('22/Jogar Jokenpo')
     print('0/Sair.')
 
     try:
@@ -217,11 +218,38 @@ while True:
             print(f'o numero aleatorio entre {n1} e {n2} é {numero_aleatorio}')
             sleep(5)
 
+        elif operacao == 22:
+            while True:
+                itens = ['Pedra', 'Papel', 'Tesoura']
+                computador = random.choice(itens)
+                print('''Sua opcao:
+                    [ 0 ] Pedra
+                    [ 1 ] Papel
+                    [ 2 ] Tesoura''')
+                jogador = int(input('digite sua opcao: '))
+                jogada_jogador = itens[jogador]
+                print('Pedra')
+                sleep(1)
+                print('Papel')
+                sleep(1)
+                print('Tesouraa!!')
+                print(f'-=-' * 11)
+                print(f'o Computador escolheu {computador}')
+                print(f'o Jogador escolheu {jogada_jogador}')
+                print('-=-' * 11)
+                if jogada_jogador == computador:
+                    print('\033[36mEmpate!!\033[m')
+                elif jogada_jogador == 'Pedra' and computador == 'Tesoura' or \
+                        jogada_jogador == 'Tesoura' and computador == 'Papel' or \
+                        jogada_jogador == 'Papel' and computador == 'Pedra':
+                    print(f'\033[32mO jogador venceu!!\033[m')
+                else:
+                    print(f'\033[31mO computador venceu!!\033[m')
+                sleep(4)
+
         elif operacao == 0:
             print('Saindo...')
             sleep(4)
-            break
-
         else:
             print('erro. coloque uma entrada de 0 a 25')
 
