@@ -219,7 +219,6 @@ while True:
             sleep(5)
 
         elif operacao == 22:
-            while True:
                 itens = ['Pedra', 'Papel', 'Tesoura']
                 computador = random.choice(itens)
                 print('''Sua opcao:
