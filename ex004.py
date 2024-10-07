@@ -1,0 +1,8 @@
+algo = str(input('digite algo: '))
+print(f'{algo} o tipo primitivo é', type(algo))
+print(f'{algo} é todo em maisculas?', algo.isupper())
+print(f'{algo} é todo em minusculas?', algo.islower())
+print(f'{algo} é alfabeto?', algo.isalpha())
+print(f'{algo} é alfanumerico?', algo.isalnum())
+print(f'{algo} é numeral?', algo.isnumeric())
+print(f'{algo} contem espaços?', algo.isspace())

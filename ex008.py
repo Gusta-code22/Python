@@ -1,0 +1,8 @@
+n = float(input('\033[37mdigite uma distancia em metros: \033[m'))
+print(f'a medida \033[m\033[31m{n}M\033[m \033[37mconrresponde a \033[m')
+print(f'{'\033[30m'}{(n / 1000)}{'\033[m'} km')
+print(f'{'\033[32m'}{(n / 100)}{'\033[m'} hm')
+print(f'{'\033[33m'}{(n / 10)}{'\033[m'} dam')
+print(f'{'\033[34m'}{(n * 10)}{'\033[m'} dm')
+print(f'{'\033[35m'}{(n * 100)}{'\033[m'} cm')
+print(f'{'\033[36m'}{(n * 1000)}{'\033[m'} mm')

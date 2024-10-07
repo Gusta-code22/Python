@@ -1,0 +1,22 @@
+Exercício: Calculadora de IMC
+
+Crie um programa em Python que calcule o Índice de Massa Corporal (IMC) de uma pessoa. O programa deve solicitar ao usuário o peso em quilogramas e a altura em metros, e em seguida calcular e exibir o IMC, junto com a categoria correspondente (por exemplo, abaixo do peso, peso normal, sobrepeso, obesidade, etc.).
+
+Requisitos:
+
+O programa deve receber como entrada o peso (em kg) e a altura (em metros).
+O programa deve calcular o IMC usando a fórmula: IMC = peso / (altura ** 2).
+O programa deve classificar o IMC em uma das categorias predefinidas (abaixo do peso, peso normal, etc.).
+Divirta-se com o desafio!
+
+mais como posso dizer que esta abaixao do peso e etc?
+ChatGPT
+Para classificar o IMC nas categorias correspondentes, você pode usar as faixas de valores estabelecidas pela Organização Mundial da Saúde (OMS). Aqui estão as categorias mais comuns:
+
+Abaixo do peso: IMC < 18.5
+Peso normal: 18.5 ≤ IMC < 24.9
+Sobrepeso: 25 ≤ IMC < 29.9
+Obesidade Grau I: 30 ≤ IMC < 34.9
+Obesidade Grau II: 35 ≤ IMC < 39.9
+Obesidade Grau III (ou Mórbida): IMC ≥ 40
+Você pode usar estas faixas para criar condições (if, elif, else) que classifiquem o IMC do usuário conforme a categoria correspondente.
