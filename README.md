@@ -1,1 +1,2 @@
-¨ Olá fiz esse codigo pensando em juntar varias funcionalidades em uma só, espero que tenha ficado bom.
+Repositorio para ilustrar meu progresso em Python
+
