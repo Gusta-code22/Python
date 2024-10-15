@@ -35,10 +35,7 @@ while True:
         maiores_de_1000 += 1
 
     # Verifica se o produto é o mais barato
-    if c == 1:  # Se for o primeiro produto, ele é o mais barato automaticamente
-        mais_barato = valor
-        nome_barato = nome
-    elif valor < mais_barato:  # Se não for o primeiro, compara o valor
+    if c == 1 or valor < mais_barato:  # Se for o primeiro produto, ele é o mais barato automaticamente
         mais_barato = valor
         nome_barato = nome
 
