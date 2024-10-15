@@ -47,7 +47,7 @@ while True:
         break
 
 # Exibição dos resultados
-print(f'-' * 10 + ' FIM DO PROGRAMA ' + '-' * 10)
+print(f'{'FIM DO PROGRAMA':-^40}')
 print(f'O total da compra foi de R${total:.2f}')  # Exibe o total formatado com 2 casas decimais
 print(f'Temos {maiores_de_1000} produto(s) custando mais de R$1000')  # Exibe a quantidade de produtos acima de R$1000
 print(f'O produto mais barato foi {nome_barato} que custa R${mais_barato:.2f}')  # Exibe o nome e valor do produto mais barato
