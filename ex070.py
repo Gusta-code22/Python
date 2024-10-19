@@ -4,12 +4,8 @@ print('Loja RLG Variedades')
 print('-=-' * 20)
 
 # Contadores para armazenar valores
-total = 0  # Total da compra
-maiores_de_1000 = 0  # Contador para produtos acima de R$1000
-mais_barato = 0  # Armazena o valor do produto mais barato
+total = c  = mais_barato = maiores_de_1000 = 0  
 nome_barato = ''  # Armazena o nome do produto mais barato
-c = 0  # Contador para saber se é o primeiro produto
-
 # Início do loop principal
 while True:
     c += 1  # Incrementa o contador de produtos
