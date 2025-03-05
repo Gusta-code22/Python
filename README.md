@@ -7,13 +7,14 @@
 
 ---
 
-### 🚀 Sobre mim  
-🎯 Atualmente estudando **Java, Python, Spring Boot, HTML, CSS, Pandas**.  
-⚡ Fun fact: **Sou apenas um cara tranquilo com códigos limpos!**  
+## 🌟 Objetivo em Destaque  
+<p align="center">
+  <img src="https://img.shields.io/badge/BECOME%20A%20SOFTWARE%20ENGINEER-FC0362?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas  
+## 🚀 Tecnologias e Ferramentas  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
@@ -27,32 +28,25 @@
 
 ---
 
-### 📊 Minhas Estatísticas  
+## ⚡ Estatísticas do GitHub  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=teu-usuario-github&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=teu-usuario-github&theme=tokyonight" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=teu-usuario-github&layout=compact&theme=tokyonight" alt="Linguagens mais usadas" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=teu-usuario-github&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=teu-usuario-github&theme=tokyonight" alt="Linguagens mais usadas" />
 </p>
 
 ---
 
-### 🌎 Onde me encontrar  
+## 📬 Entre em Contato  
 
 <p align="center">
-  <a href="https://linkedin.com/in/teu-linkedin" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="40" width="40" />
+  <a href="mailto:teu-email@gmail.com">
+    <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://instagram.com/teu-instagram" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="40" width="40" />
-  </a>
-  <a href="https://discord.gg/teu-discord" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="40" width="40" />
+  <a href="https://wa.me/teu-numero">
+    <img src="https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </p>
