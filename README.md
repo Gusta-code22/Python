@@ -1,34 +1,58 @@
-<h1 align="center">Oi, me chamo Gustavo</h1>
-<h3 align="center">Apenas um futuro Engenheiro de Software</h3>
+<h1 align="center">Oi, me chamo Gustavo! 👋</h1>
+<h3 align="center">Apenas um futuro Engenheiro de Software apaixonado por código limpo!</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=gusta-code22&label=Profile%20views&color=0e75b6&style=flat" alt="gusta-code22" /> </p>
-
-- 🌱 No momento estou estudando **Java, Python, Spring Boot, HTML, CSS, Pandas, Streamlit**  
-
-- 📫 Como falar comigo **Hshskskskk@gmail.com**  
-
-- ⚡ Curiosidade **Sou apenas um cara tranquilo com códigos limpos**  
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/djdjdj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="djdjdj" height="30" width="40" /></a>
-<a href="https://instagram.com/jsnsjs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jsnsjs" height="30" width="40" /></a>
-<a href="https://discord.gg/Jznsjsn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Jznsjsn" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=teu-usuario-github&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-<a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
-<a href="https://streamlit.io/" target="_blank" rel="noreferrer"> <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" alt="streamlit" width="100" height="40"/> </a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
+---
+
+### 🚀 Sobre mim  
+🎯 Atualmente estudando **Java, Python, Spring Boot, HTML, CSS, Pandas**.  
+⚡ Fun fact: **Sou apenas um cara tranquilo com códigos limpos!**  
+
+---
+
+### 🛠️ Tecnologias e Ferramentas  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="50" height="50"/>
+  <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.svg" alt="Streamlit" width="90"/>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=gusta-code22&show_icons=true&locale=en&layout=compact" alt="gusta-code22" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=gusta-code22&show_icons=true&locale=en" alt="gusta-code22" /></p>
+### 📊 Minhas Estatísticas  
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=gusta-code22&" alt="gusta-code22" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=teu-usuario-github&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=teu-usuario-github&layout=compact&theme=tokyonight" alt="Linguagens mais usadas" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=teu-usuario-github&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+---
+
+### 🌎 Onde me encontrar  
+
+<p align="center">
+  <a href="https://linkedin.com/in/teu-linkedin" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="40" width="40" />
+  </a>
+  <a href="https://instagram.com/teu-instagram" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="40" width="40" />
+  </a>
+  <a href="https://discord.gg/teu-discord" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="40" width="40" />
+  </a>
+</p>
