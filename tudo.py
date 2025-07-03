@@ -27,6 +27,7 @@ while True:
     print('20/calcular fatorial.')
     print('21/gerar um numero aleatorio')
     print('22/Jogar Jokenpo')
+    print('23/ Java Ou Python')
     print('0/Sair.')
 
     try:
@@ -245,9 +246,12 @@ while True:
                 else:
                     print(f'\033[31mO computador venceu!!\033[m')
                 sleep(4)
-
+        elif operacao == 23:
+            print(f"java é melhor")
+            sleep(4)
         elif operacao == 0:
             print('Saindo...')
+            break
             sleep(4)
         else:
             print('erro. coloque uma entrada de 0 a 25')

@@ -23,7 +23,7 @@ while True:
 
         # jogada do computador
 
-        valor_pc = randint(0, 1000)
+        valor_pc = randint(0, 10)
 
         # jogada final
         valor_final = valor_pc + valor_player

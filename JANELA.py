@@ -1,54 +1,70 @@
-from tkinter import *
+import customtkinter as ct
+from time import sleep
 
-# Função que realiza a soma
-def soma():
-    try:
-        n = int(campo_num1.get())  # Obtém o valor do primeiro campo
-        n2 = int(campo_num2.get())  # Obtém o valor do segundo campo
-        resultado_soma = n + n2
-        texto_soma['text'] = f"Resultado: {resultado_soma}"  # Atualiza o texto do resultado
-    except ValueError:
-        texto_soma['text'] = "Insira números válidos!"  # Tratar erro se não for um número
-def sub():
-    try:
-        n = int(campo_num1.get())
-        n2 = int(campo_num2.get())
-        resultado_sub = n - n2
-        textosub['text'] = f'Resultado: {resultado_sub}'
-    except ValueError:
-        textosub['text'] = f'Insira algo válido.'
-# Criação da janela principal
-janela = Tk()
-janela.geometry('400x300')
-janela.title('Gustavo - Soma')
+ct.set_appearance_mode("Dark")
+janela = ct.CTk()
+janela.title('Login')
+janela.geometry("800x600")
 
-# Título
-texto_teste = Label(janela, text='Olá, Mundo!')
-texto_teste.grid(column=0, row=0, padx=10, pady=10)
 
-# Campo de entrada 1
-Label(janela, text="Digite o 1º número:").grid(column=0, row=1, padx=10, pady=5)
-campo_num1 = Entry(janela)
-campo_num1.grid(column=1, row=1, padx=10, pady=5)
+def abrirnova():
+    janela.destroy()
+    janela2 = ct.CTk()
+    janela2.title('dados')
+    janela2.geometry("800x600")
+    mensagem = ct.CTkLabel(janela2, text="Login efetuado com sucesso!", font=("Arial", 16))
+    mensagem.pack(pady=50)
+    janela2.mainloop()
 
-# Campo de entrada 2
-Label(janela, text="Digite o 2º número:").grid(column=0, row=2, padx=10, pady=5)
-campo_num2 = Entry(janela)
-campo_num2.grid(column=1, row=2, padx=10, pady=5)
 
-# Botão para realizar a soma
-botaosoma = Button(janela, text='Soma', command=soma)
-botaosoma.grid(column=1, row=3, padx=10, pady=10)
+titulo = ct.CTkLabel(janela, text='Login', font=('Arial', 25, 'bold'))
+titulo.pack(pady=30)
 
-botaosub = Button(janela, text='Subtrair',command=sub)
-botaosub.grid(column=2,row=4,padx=10,pady=10)
 
-textosub = Label(janela,text='')
-textosub.grid(column=1,row=4,padx=10,pady=10)
+def dados():
+    if Email.get() and senha.get():
+        texto_auxiliar.configure(text='Login efetuado')
+        texto_auxiliar.after(2000, lambda: texto_auxiliar.configure(text=''))  # 2 segundos
+        texto.configure(text=f'Email: {Email.get()}\nSenha: {senha.get()}')
+        texto.after(3000, lambda: texto.configure(text=''))  # 3 segundos
+        texto.after(3000, abrirnova)
+    elif Email.get():
+        texto_auxiliar.configure(text='Digite a senha')
+    elif senha.get():
+        texto_auxiliar.configure(text='Digite o email')
+    else:
+        texto_auxiliar.configure(text='Digite o email e a senha')
 
-# Rótulo para mostrar o resultado
-texto_soma = Label(janela, text="")
-texto_soma.grid(column=1, row=4, padx=10, pady=10)
 
-# Loop principal da janela
+Email = ct.CTkEntry(janela, placeholder_text='Digite seu email', font=('Arial', 16))
+Email.place(x=200, y=100)
+
+texto = ct.CTkLabel(janela, text='', font=('Arial', 16))
+texto.place(x=200, y=350)
+
+texto_auxiliar = ct.CTkLabel(janela, text='', font=('Arial', 16, 'bold'))
+texto_auxiliar.place(x=200, y=300)  # 200 pixels para a direita e 400 para baixo
+
+senha = ct.CTkEntry(janela, placeholder_text='Senha', show='*', font=('Arial', 16))
+senha.place(x=500, y=100)
+
+botao = ct.CTkButton(janela, text='Fazer login', command=dados)
+botao.place(x=200, y=200)
+
+checkbox_valor = ct.BooleanVar()
+
+
+def mostrar_senha():
+    if checkbox_valor.get():
+        senha.configure(show='')
+    else:
+        senha.configure(show='*')
+
+
+checkbox = ct.CTkCheckBox(janela,
+                          variable=checkbox_valor,
+                          text='Mostrar senha',
+                          command=mostrar_senha)
+checkbox.place(x=500, y=200)
+
 janela.mainloop()

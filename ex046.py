@@ -4,4 +4,4 @@ for contagem in range(10, -1, -1):
     print(contagem)
     t.sleep(1)
 print('BOOW!! BOWWWW!!! POWWWWW')
-agr.playsound('baruio.mp3')
+
