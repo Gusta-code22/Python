@@ -31,11 +31,11 @@
 ## ⚡ Estatísticas do GitHub  
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GUSTAVO-USER&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gusta-code22&theme=tokyonight" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GUSTAVO-USER&theme=tokyonight" alt="Linguagens mais usadas" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gusta-code22&theme=tokyonight" alt="Linguagens mais usadas" />
 </p>
 
 ---
