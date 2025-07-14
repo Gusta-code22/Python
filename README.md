@@ -46,7 +46,5 @@
   <a href="mailto:gustavo@email.com">
     <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://wa.me/5551998765432">
-    <img src="https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+
 </p>
